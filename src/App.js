@@ -37,6 +37,8 @@ export default function App() {
   const searchHandler = (e) => {
     if (selectedMode) {
       setSelectedMode(false)
+      setAddress('')
+      setPType('')
     }
     setSearchValue(e.target.value)
 
